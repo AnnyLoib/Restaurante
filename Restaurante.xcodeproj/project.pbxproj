@@ -14,6 +14,12 @@
 		3D3BA3D6216D768400F6EE01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3BA3D4216D768400F6EE01 /* LaunchScreen.storyboard */; };
 		3D3BA3E1216D768400F6EE01 /* RestauranteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3BA3E0216D768400F6EE01 /* RestauranteTests.swift */; };
 		3D3BA3EC216D768400F6EE01 /* RestauranteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3BA3EB216D768400F6EE01 /* RestauranteUITests.swift */; };
+		3D3ED455216E566900C49997 /* Restaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ED454216E566900C49997 /* Restaurante.swift */; };
+		3D3ED457216E57FE00C49997 /* Comentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ED456216E57FE00C49997 /* Comentario.swift */; };
+		3D3ED459216E591C00C49997 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ED458216E591C00C49997 /* Datos.swift */; };
+		3D3ED45B216E5CEB00C49997 /* CeldaRestaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ED45A216E5CEB00C49997 /* CeldaRestaurante.swift */; };
+		3D3ED45D216E5FB700C49997 /* CeldaComentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ED45C216E5FB700C49997 /* CeldaComentario.swift */; };
+		3D3ED45F216E60EC00C49997 /* ListaComentarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ED45E216E60EC00C49997 /* ListaComentarioController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		3D3BA3E7216D768400F6EE01 /* RestauranteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestauranteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3BA3EB216D768400F6EE01 /* RestauranteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestauranteUITests.swift; sourceTree = "<group>"; };
 		3D3BA3ED216D768400F6EE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3ED454216E566900C49997 /* Restaurante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurante.swift; sourceTree = "<group>"; };
+		3D3ED456216E57FE00C49997 /* Comentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comentario.swift; sourceTree = "<group>"; };
+		3D3ED458216E591C00C49997 /* Datos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		3D3ED45A216E5CEB00C49997 /* CeldaRestaurante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaRestaurante.swift; sourceTree = "<group>"; };
+		3D3ED45C216E5FB700C49997 /* CeldaComentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaComentario.swift; sourceTree = "<group>"; };
+		3D3ED45E216E60EC00C49997 /* ListaComentarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaComentarioController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +139,9 @@
 		3D3BA3F9216D769300F6EE01 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3D3ED454216E566900C49997 /* Restaurante.swift */,
+				3D3ED456216E57FE00C49997 /* Comentario.swift */,
+				3D3ED458216E591C00C49997 /* Datos.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -152,6 +167,9 @@
 			isa = PBXGroup;
 			children = (
 				3D3BA3CD216D767300F6EE01 /* ViewController.swift */,
+				3D3ED45A216E5CEB00C49997 /* CeldaRestaurante.swift */,
+				3D3ED45C216E5FB700C49997 /* CeldaComentario.swift */,
+				3D3ED45E216E60EC00C49997 /* ListaComentarioController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -296,8 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3ED45B216E5CEB00C49997 /* CeldaRestaurante.swift in Sources */,
+				3D3ED459216E591C00C49997 /* Datos.swift in Sources */,
+				3D3ED457216E57FE00C49997 /* Comentario.swift in Sources */,
+				3D3ED45D216E5FB700C49997 /* CeldaComentario.swift in Sources */,
+				3D3ED45F216E60EC00C49997 /* ListaComentarioController.swift in Sources */,
 				3D3BA3CE216D767300F6EE01 /* ViewController.swift in Sources */,
 				3D3BA3CC216D767200F6EE01 /* AppDelegate.swift in Sources */,
+				3D3ED455216E566900C49997 /* Restaurante.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
