@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
-class Celdacomentario : UITableViewCell {
-    
+class CeldaComentario : UITableViewCell {
+    @IBOutlet weak var lblUsuario: UILabel!
+    @IBOutlet weak var lblComentario: UILabel!
 }

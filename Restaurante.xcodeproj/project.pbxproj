@@ -20,6 +20,8 @@
 		3D3ED45B216E5CEB00C49997 /* CeldaRestaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ED45A216E5CEB00C49997 /* CeldaRestaurante.swift */; };
 		3D3ED45D216E5FB700C49997 /* CeldaComentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ED45C216E5FB700C49997 /* CeldaComentario.swift */; };
 		3D3ED45F216E60EC00C49997 /* ListaComentarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ED45E216E60EC00C49997 /* ListaComentarioController.swift */; };
+		3D4ABE6D216FDF9500E8FB7A /* AgregarComentarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4ABE6C216FDF9500E8FB7A /* AgregarComentarioController.swift */; };
+		3D4ABE6F216FE65600E8FB7A /* DetalleRestauranteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4ABE6E216FE65600E8FB7A /* DetalleRestauranteController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		3D3ED45A216E5CEB00C49997 /* CeldaRestaurante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaRestaurante.swift; sourceTree = "<group>"; };
 		3D3ED45C216E5FB700C49997 /* CeldaComentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaComentario.swift; sourceTree = "<group>"; };
 		3D3ED45E216E60EC00C49997 /* ListaComentarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaComentarioController.swift; sourceTree = "<group>"; };
+		3D4ABE6C216FDF9500E8FB7A /* AgregarComentarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarComentarioController.swift; sourceTree = "<group>"; };
+		3D4ABE6E216FE65600E8FB7A /* DetalleRestauranteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleRestauranteController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,8 @@
 				3D3ED45A216E5CEB00C49997 /* CeldaRestaurante.swift */,
 				3D3ED45C216E5FB700C49997 /* CeldaComentario.swift */,
 				3D3ED45E216E60EC00C49997 /* ListaComentarioController.swift */,
+				3D4ABE6C216FDF9500E8FB7A /* AgregarComentarioController.swift */,
+				3D4ABE6E216FE65600E8FB7A /* DetalleRestauranteController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -320,8 +326,10 @@
 				3D3ED45D216E5FB700C49997 /* CeldaComentario.swift in Sources */,
 				3D3ED45F216E60EC00C49997 /* ListaComentarioController.swift in Sources */,
 				3D3BA3CE216D767300F6EE01 /* ViewController.swift in Sources */,
+				3D4ABE6F216FE65600E8FB7A /* DetalleRestauranteController.swift in Sources */,
 				3D3BA3CC216D767200F6EE01 /* AppDelegate.swift in Sources */,
 				3D3ED455216E566900C49997 /* Restaurante.swift in Sources */,
+				3D4ABE6D216FDF9500E8FB7A /* AgregarComentarioController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
